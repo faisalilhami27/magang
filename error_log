@@ -1,0 +1,1 @@
+[16-Oct-2018 08:40:09 UTC] PHP Fatal error:  require_once(): Failed opening required '.\vendor\autoload.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/faildawa/public_html/application/controllers/Permohonan.php on line 16
