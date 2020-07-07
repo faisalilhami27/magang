@@ -198,6 +198,9 @@
 				type="button">Submit
 		</button>
 	</form>
+	<p>URL Login Admin : http://magang.faisalilhami.site/auth</p>
+	<p>Email : faisal.ilhami1997@gmail.com</p>
+	<p>Password : admin</p>
 </div>
 <script src="<?= base_url('assets/js/jquery-3.1.1.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/popper.min.js') ?>"></script>
