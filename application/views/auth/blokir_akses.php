@@ -53,7 +53,7 @@
         <span style="color: #0f0f0f">Anda tidak mempunyai hak akses untuk halaman ini</span>
     </div>
     <div class="text-center">
-        <a href="<?= site_url('welcome') ?>" class="btn btn-warning btn-sm">Kembali ke Home</a>
+        <a href="<?= site_url('auth') ?>" class="btn btn-warning btn-sm">Kembali ke Login</a>
     </div>
     <div class="lockscreen-footer text-center">
         Copyright &copy; 2018 <b><a href="https://adminlte.io" class="text-black"></a></b><br>

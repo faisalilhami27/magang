@@ -53,20 +53,6 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputName" class="col-sm-2 control-label">Level</label>
-
-                                    <div class="col-sm-10">
-                                        <?php echo cmb_dinamis('id_user_level', 'tbl_user_level', 'nama_level', 'id_user_level', $level, 'DESC') ?>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputExperience" class="col-sm-2 control-label">Status Aktif</label>
-
-                                    <div class="col-sm-10">
-                                        <?php echo form_dropdown('is_aktif', array('y' => 'AKTIF', 'n' => 'TIDAK AKTIF'), $is_aktif, array('class' => 'form-control')); ?>
-                                    </div>
-                                </div>
-                                <div class="form-group">
                                     <label for="images" class="col-sm-2 control-label">Foto Profile</label>
 
                                     <div class="col-sm-10">
