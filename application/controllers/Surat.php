@@ -138,12 +138,13 @@ class Surat extends CI_Controller
 			"tanggal5" => $tanggal_selesai,
 			"konfig" => $konfig,
 		);
-		$this->load->library('M_pdf');
+
 		$array = array(
 			'mode' => 'utf-8',
 			'format' => 'LEGAL'
 		);
-		$mpdf = $this->m_pdf->load($array);
+		$mpdf = new \Mpdf\Mpdf($array);
+		$mpdf->showImageErrors = true;
 		$nama_file = $surat->no_surat . ".pdf";
 		$view = $this->load->view('cetak_surat_kp', $data, true);
 		$mpdf->WriteHTML($view);
