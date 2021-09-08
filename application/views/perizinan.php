@@ -198,7 +198,7 @@
 				type="button">Submit
 		</button>
 	</form>
-	<p>URL Login Admin : <a href="http://magang.investasikoding.com/auth" target="_blank">Login Admin</a></p>
+	<p>URL Login Admin : <a href="<?= site_url('auth') ?>" target="_blank">Login Admin</a></p>
 	<p>Email : faisal.ilhami1997@gmail.com</p>
 	<p>Password : admin</p>
 </div>
