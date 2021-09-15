@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0343b1c8-ece4-43b0-97e9-7f8b3e4e0a94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,8 @@
       <workItem from="1616052920155" duration="3990000" />
       <workItem from="1616058263045" duration="921000" />
       <workItem from="1631019399334" duration="2945000" />
-      <workItem from="1631056730283" duration="2546000" />
+      <workItem from="1631056730283" duration="3295000" />
+      <workItem from="1631681224409" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="update login">
       <created>1594133839094</created>
